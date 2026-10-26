@@ -7,7 +7,9 @@ authors = [
     { name = "Fati AXE_ING", email = "fatimagabbas23@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "django>=6.1.2",
+]
 
 [project.scripts]
 app-axe = "app_axe:main"
